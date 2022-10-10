@@ -12,6 +12,11 @@ btn.addEventListener("click", function(event){
         var sec = RunnerTime.nome.value.slice(4,6);
         var ms =  RunnerTime.nome.value.slice(8,11);
     }
+    else if(str.length == 9){
+        var min = 0
+        var sec = RunnerTime.nome.value.slice(0,2);
+        var ms =  RunnerTime.nome.value.slice(4,7);
+    }
     else if(str.length == 12){
         var min = RunnerTime.nome.value.slice(0,1);
         var sec = RunnerTime.nome.value.slice(3,5);
