@@ -1,0 +1,39 @@
+body{
+   background-image: url(bg.png);
+
+}
+form{
+    width: 260px;
+    height: 60px;
+    padding: 15px;
+    
+}
+
+#input{
+    border-radius: 5px;
+    height: 50%;
+    
+}
+
+#button{
+    border-radius: 5px;
+     font-weight: 700;
+     background-color: #428d70;
+     width: 30%;
+     height: 50%;
+     color: white;
+
+}
+#button:active {
+    box-shadow:
+      7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+    /* Moving button 4px to y-axis */
+}
+#validade{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 32px;
+    padding: 3px
+
+}
